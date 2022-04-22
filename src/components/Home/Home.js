@@ -1,5 +1,4 @@
 
-
 import React, {useState, useEffect} from "react";
 import Post from "../Post/Post";
 
@@ -39,7 +38,7 @@ function Home() {
         return(
 
             <div className = "container"> 
-            Home!!!     
+               
             {postList.map(post => (      
                     <Post title= {post.title} text={post.text}></Post> 
                                           
